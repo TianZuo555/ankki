@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "sass": "^1.32.4",
+    "scss": "^0.2.4"
+  },
+  "name": "ankki",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "css": "yarn sass --no-source-map --watch scss/main.scss:main.css scss/anki.scss:anki.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TianZuo555/ankki.git"
+  },
+  "author": "tian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TianZuo555/ankki/issues"
+  },
+  "homepage": "https://github.com/TianZuo555/ankki#readme"
+}
